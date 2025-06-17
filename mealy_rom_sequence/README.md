@@ -9,16 +9,16 @@ This VHDL implementation demonstrates a ROM-based finite state machine with:
 ## 📂 File Structure
 ---
 ### 🧩 Core Components
-| File | Description | Emoji |
-|------|-------------|-------|
-| `rom_fsm.vhd` | ROM storing next states and outputs | 🧠 |
-| `reg3.vhd` | 3-bit register for state storage | ⏱️ |
-| `top.vhd` | Top-level entity connecting components | 🏗️ |
+| File | Description  Emoji |
+|------|--------------------|
+| `rom_fsm.vhd` | ROM storing next states and outputs  🧠 |
+| `reg3.vhd` | 3-bit register for state storage  ⏱️ |
+| `top.vhd` | Top-level entity connecting components  🏗️ |
 
 ### 🧪 Verification
-| File | Description | Emoji |
-|------|-------------|-------|
-| `tb.vhd` | Testbench with automatic pattern verification | ✅ |
+| File | Description |
+|------|--------------------|
+| `tb.vhd` | Testbench with automatic pattern verification  ✅ |
 
 ## 📖 ROM Configuration
 The ROM contains 8 entries with the following mapping:
